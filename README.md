@@ -4,6 +4,23 @@ test arduino code
 ## Error during compile on Platform IO on VSCODE for Sparkfun Pro Micro board:
 
 ```
+LDF: Library Dependency Finder -> http://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 16 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- <U8g2> 2.27.2
+|   |-- <SPI> 1.0
+|   |-- <Wire> 1.0
+|-- <IoAbstraction> 1.4.11
+|   |-- <Wire> 1.0
+|-- <SPI> 1.0
+|-- <Wire> 1.0
+|-- <tcMenu> 1.3.5
+|   |-- <IoAbstraction> 1.4.11
+|   |   |-- <Wire> 1.0
+Building in release mode
+...
 MethodWrapper(["checkprogsize"], [".pio/build/sparkfun_promicro16/firmware.elf"])
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
 DATA:    [========  ]  83.5% (used 2138 bytes from 2560 bytes)
