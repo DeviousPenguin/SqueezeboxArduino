@@ -1,0 +1,577 @@
+
+/Users/g4560/Documents/BITBUCKET LOCAL/arduino_pro_micro_squeezebox/SqueezeboxArduino/.pio/build/sparkfun_promicro16/firmware.elf:     file format elf32-avr
+/Users/g4560/Documents/BITBUCKET LOCAL/arduino_pro_micro_squeezebox/SqueezeboxArduino/.pio/build/sparkfun_promicro16/firmware.elf
+architecture: avr:5, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000
+
+Program Header:
+    LOAD off    0x00000094 vaddr 0x00000000 paddr 0x00000000 align 2**1
+         filesz 0x00006d90 memsz 0x00006d90 flags r-x
+    LOAD off    0x00006e24 vaddr 0x00800100 paddr 0x00006d90 align 2**0
+         filesz 0x0000017c memsz 0x0000017c flags rw-
+    LOAD off    0x00006fa0 vaddr 0x0080027c paddr 0x0080027c align 2**0
+         filesz 0x00000000 memsz 0x000006dd flags rw-
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         0000017c  00800100  00006d90  00006e24  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00006d90  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          000006dd  0080027c  0080027c  00006fa0  2**0
+                  ALLOC
+  3 .comment      0000005b  00000000  00000000  00006fa0  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00006ffc  2**2
+                  CONTENTS, READONLY
+  5 .debug_info   000009f4  00000000  00000000  0000703c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000096a  00000000  00000000  00007a30  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000001a  00000000  00000000  0000839a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    00000371  00000000  00000000  000083b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+00800100 l    d  .data	00000000 .data
+00000000 l    d  .text	00000000 .text
+0080027c l    d  .bss	00000000 .bss
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .note.gnu.avr.deviceinfo	00000000 .note.gnu.avr.deviceinfo
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00003856 l     F .text	00000002 nothing
+00800385 l     O .bss	00000004 timer0_overflow_count
+00800381 l     O .bss	00000004 timer0_millis
+00800380 l     O .bss	00000001 timer0_fract
+000001a9 l     O .text	000000cf u8g2_font_6x10_tn
+00800351 l     O .bss	0000002f myConfig
+00000290 l     O .text	00000018 defEditingIcon
+00000278 l     O .text	00000018 defActiveIcon
+00800100 l     O .data	0000000a intFunc
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00003c5e l     F .text	0000005c _ZL11SendControlh
+0080038c l     O .bss	00000002 _ZL6_cmark
+0080038a l     O .bss	00000002 _ZL5_cend
+0000601e l     F .text	0000006a _ZL24USB_SendStringDescriptorPKhhh
+00003cba l     F .text	0000004e _Z15USB_SendControlhPKvi
+00003d08 l     F .text	0000001a _ZL4RecvPVhh
+00003d22 l     F .text	0000007a turnOffPWM
+00003e28 l     F .text	00000064 _ZL14SendInterfacesv
+0000032e l     O .text	00000042 _cdcInterface
+008001c4 l     O .data	00000007 _initEndpoints
+0080010a l     O .data	00000004 _ZL10breakValue
+0000038f l     O .text	00000013 STRING_PRODUCT
+00000386 l     O .text	00000009 STRING_MANUFACTURER
+00000374 l     O .text	00000012 USB_DeviceDescriptorIAD
+00000370 l     O .text	00000004 STRING_LANGUAGE
+0080038e l     O .bss	00000001 _ZL11wdtcsr_save
+00000310 l     O .text	0000001e digital_pin_to_timer_PGM
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00800116 l     O .data	00000002 _ZL21nextAvailableRandomId
+0080094b l     O .bss	00000008 _ZGVZ12PluggableUSBvE3obj
+00800947 l     O .bss	00000004 _ZZ12PluggableUSBvE3obj
+00000000 l    df *ABS*	00000000 malloc.o
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000490 l     F .text	00000014 twi_stop
+000004a4 l     F .text	00000050 twi_transmit
+008002e0 l     O .bss	00000001 twi_txBufferLength
+008002c0 l     O .bss	00000020 twi_txBuffer
+008002a0 l     O .bss	00000020 _ZN7TwoWire8txBufferE
+00000604 l     F .text	00000002 _ZN10U8g2DialogD2Ev
+00000604 l     F .text	00000002 _ZN10U8g2DialogD1Ev
+00800303 l     O .bss	00000001 _ZN8SPIClass11initializedE
+00800128 l     O .data	00000003 CSWTCH.94
+000008d6 l     F .text	00000004 _ZN10U8g2DialogD0Ev
+0080011e l     O .data	0000000a _ZTV10U8g2Dialog
+00000c3e l     F .text	00000240 _ZN10U8g2Dialog14internalRenderEi
+00800302 l     O .bss	00000001 twi_rxBufferIndex
+008002e2 l     O .bss	00000020 twi_rxBuffer
+008002e1 l     O .bss	00000001 twi_txBufferIndex
+000000ca l     O .text	0000003a applicationInfo
+00005bde l     F .text	00000008 _GLOBAL__sub_D_renderer
+0080027c l     O .bss	00000008 _ZZ31u8x8_byte_arduino_8bit_8080modeE17arduino_data_mask
+00800284 l     O .bss	00000008 _ZZ31u8x8_byte_arduino_8bit_8080modeE19arduino_data_n_mask
+0080028c l     O .bss	00000001 _ZZ31u8x8_byte_arduino_8bit_8080modeE16arduino_e_n_mask
+0080028d l     O .bss	00000001 _ZZ31u8x8_byte_arduino_8bit_8080modeE14arduino_e_mask
+0080028e l     O .bss	00000008 _ZZ24u8x8_byte_arduino_ks0108E17arduino_data_mask
+00800296 l     O .bss	00000008 _ZZ24u8x8_byte_arduino_ks0108E19arduino_data_n_mask
+0080029e l     O .bss	00000001 _ZZ24u8x8_byte_arduino_ks0108E14arduino_e_mask
+0080029f l     O .bss	00000001 _ZZ24u8x8_byte_arduino_ks0108E16arduino_e_n_mask
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+0000162c l     F .text	00000014 u8x8_cad_EndTransfer
+00001640 l     F .text	00000014 u8x8_cad_StartTransfer
+00001654 l     F .text	00000012 u8x8_cad_SendData
+00001666 l     F .text	00000014 u8x8_cad_SendArg
+0000167a l     F .text	00000014 u8x8_cad_SendCmd
+0000168e l     F .text	00000014 u8x8_byte_SetDC
+000019c8 l     F .text	00000080 _Z21checkRunLoopAndRepeatv
+00001a94 l     F .text	00000004 _ZZ21checkRunLoopAndRepeatvENUlvE_4_FUNEv
+00001d5a l     F .text	0000001e u8x8_byte_SendByte
+00001f50 l     F .text	0000009c u8x8_cad_SendSequence
+0080013e l     O .data	00000005 u8x8_d_ssd1306_128x64_noname_powersave0_seq
+00800139 l     O .data	00000005 u8x8_d_ssd1306_128x64_noname_powersave1_seq
+00800132 l     O .data	00000007 u8x8_d_ssd1306_128x64_noname_flip0_seq
+0080012b l     O .data	00000007 u8x8_d_ssd1306_128x64_noname_flip1_seq
+00800178 l     O .data	00000018 u8x8_sh1106_128x64_noname_display_info
+00800143 l     O .data	00000035 u8x8_d_ssd1306_128x64_noname_init_seq
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00002de0 l     F .text	000000bc _Z28recursiveFindParentRootVisitP8MenuItemS0_S0_PFvS0_E.constprop.86
+000001a4 l     O .text	00000005 _ZL14MENU_BACK_TEXT
+00800190 l     O .data	00000020 CSWTCH.12
+000001a0 l     O .text	00000004 _ZL7OFF_STR
+0000019c l     O .text	00000004 _ZL6NO_STR
+00000196 l     O .text	00000006 _ZL9FALSE_STR
+00000189 l     O .text	00000003 _ZL6ON_STR
+0000018c l     O .text	00000004 _ZL7YES_STR
+00000190 l     O .text	00000006 _ZL8TRUE_STR
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00006088 l     F .text	000003bc _GLOBAL__I_65535_0_SqueezeboxArduino.ino.cpp.o.16717
+008004d5 l     O .bss	00000050 Serial
+008001cb l     O .data	00000012 _ZTV7Serial_
+008001dd l     O .data	00000006 _ZTV11TaskManager
+00800937 l     O .bss	0000000c Wire
+008001e3 l     O .data	00000012 _ZTV7TwoWire
+0080052e l     O .bss	00000009 menu3333
+00000403 l     O .text	0000001d _ZL9minfo3333
+00800525 l     O .bss	00000009 menu00110055
+000003e5 l     O .text	0000001e _ZL13minfo00110055
+000003c0 l     O .text	00000025 _ZL15minfo8013713831
+0080025f l     O .data	0000000c _ZTV37U8G2_SH1106_128X64_NONAME_F_4W_HW_SPI
+00800537 l     O .bss	00000400 buf.8102
+0080026b l     O .data	00000006 u8g2_cb_r0
+000003a2 l     O .text	00000008 _ZL17enumStr00110055_2
+000003aa l     O .text	00000008 _ZL17enumStr00110055_1
+000003b2 l     O .text	00000008 _ZL17enumStr00110055_0
+000003ba l     O .text	00000006 _ZL15enumStr00110055
+0080025f l     O .data	0000000c _ZTV4U8G2
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00800271 l     O .data	00000006 CSWTCH.38
+00000434 l     O .text	00000003 _ZL8buttonOK
+00000420 l     O .text	00000006 _ZL11buttonClose
+00000426 l     O .text	00000007 _ZL12buttonCancel
+0000042d l     O .text	00000007 _ZL12buttonAccept
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+0000017a l     O .text	00000007 _ZL13pgmCancelText
+00000181 l     O .text	00000008 _ZL14pgmProceedText
+0000016c l     O .text	0000000e _ZL16pgmHeaderNotAuth
+00000163 l     O .text	00000009 _ZL24fnpopupPasswordRtCallPgm
+00000104 l     O .text	0000005f _ZL25ALLOWABLE_EDIT_CHARACTERS
+000029d4 l     F .text	00000050 _ZN25EditableMultiPartMenuItemIPvE8nextPartEv
+00000000 l    df *ABS*	00000000 _clear_bss.o
+00000468 l       .text	00000000 .do_clear_bss_start
+00000466 l       .text	00000000 .do_clear_bss_loop
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00800953 l     O .bss	00000002 arduinoAbstraction
+00000000 l    df *ABS*	00000000 _divmodhi4.o
+0000663c l       .text	00000000 __divmodhi4_neg1
+00006644 l       .text	00000000 __divmodhi4_neg2
+0000664a l       .text	00000000 __divmodhi4_exit
+00000000 l    df *ABS*	00000000 _divmodsi4.o
+0000666a l       .text	00000000 __divmodsi4_neg2
+00006678 l       .text	00000000 __divmodsi4_exit
+00000000 l    df *ABS*	00000000 _udivmodhi4.o
+000066e0 l       .text	00000000 __udivmodhi4_ep
+000066d2 l       .text	00000000 __udivmodhi4_loop
+00000000 l    df *ABS*	00000000 _udivmodsi4.o
+00006718 l       .text	00000000 __udivmodsi4_ep
+000066fe l       .text	00000000 __udivmodsi4_loop
+00000000 l    df *ABS*	00000000 _exit.o
+00006d8e l       .text	00000000 __stop_program
+000007f4 g     F .text	000000e2 .hidden u8x8_gpio_and_delay_arduino
+00005be6 g     F .text	00000438 main
+00004ec6 g     F .text	0000000e .hidden _Z17interruptHandler8v
+0080032e g     O .bss	00000001 .hidden twi_state.lto_priv.212
+00000400 g       *ABS*	00000000 __SIGNATURE_REGION_LENGTH__
+00004f34 g     F .text	00000036 .hidden _ZN18BasicIoAbstraction15attachInterruptEhPFvvEh
+00001c84 g     F .text	0000007a .hidden _ZN21MCP23017IoAbstraction10writeValueEhh
+000002b6 g     O .text	0000000e .hidden port_to_output_PGM
+00006956 g       .text	00000000 __fp_splitA
+0000043a g       .text	00000000 __ctors_end
+00003da4 g     F .text	00000048 .hidden _ZN7Serial_4peekEv
+000050b0 g     F .text	000000b6 .hidden _ZN11TaskManager16putItemIntoQueueEP9TimerTask
+00006d06 g     F .text	0000000a abort
+0000507c g     F .text	00000034 .hidden _Z14ioUsingArduinov
+0080021b g     O .data	00000018 .hidden _ZTV16U8g2MenuRenderer
+0000043c  w      .text	00000000 __init
+0000377c g     F .text	0000005e .hidden _ZN21MCP23017IoAbstraction14writeToDevice8Ehh.constprop.60
+0000664c g       .text	0000002e .hidden __divmodsi4
+00006d76 g       .text	00000000 .hidden _exit
+0000449c g     F .text	00000078 .hidden pinMode
+00002a24 g     F .text	000003bc .hidden _ZZN11MenuManager14initForEncoderEP12MenuRendererP8MenuItemhhhENUlhbE_4_FUNEhb.lto_priv.199
+000021be g     F .text	000000d6 .hidden u8g2_update_page_win_r0
+000025ac g     F .text	0000003e .hidden _Z11safeProgCpyPcPKch
+0000048c  w      .text	00000000 __vector_30
+0000048c  w      .text	00000000 __vector_31
+00001a48 g     F .text	0000004c .hidden _Z19onSwitchesInterrupth
+00001eb4 g     F .text	00000002 .hidden _ZN21HardwareRotaryEncoderD2Ev.lto_priv.205
+0080011c g     O .data	00000002 __malloc_margin
+00006880 g       .text	00000000 __floatsisf
+0000048c  w      .text	00000000 __vector_38
+0000048c  w      .text	00000000 __vector_37
+00000e7e g     F .text	00000254 __vector_36
+00001188 g     F .text	0000000a .hidden _ZN16U8g2MenuRendererD1Ev
+00800331 g     O .bss	00000020 .hidden _ZN7TwoWire8rxBufferE
+00004b52 g     F .text	000000c8 .hidden _ZN16SecuredMenuPopupC2EP21AuthenticationManager.constprop.20
+00004fd4 g     F .text	00000024 .hidden _ZN15RuntimeMenuItem11runCallbackEv
+00001eb6 g     F .text	00000048 .hidden _ZN12KeyboardItem14triggerReleaseEb
+0000481e g     F .text	00000028 .hidden _ZN11TaskManager12findFreeTaskEv.constprop.150
+00004588 g     F .text	0000005a .hidden u8g2_font_decode_get_unsigned_bits.constprop.188
+0000054c g     F .text	0000005a .hidden _ZN7TwoWire5writeEPKhj
+000016d0 g     F .text	0000008c .hidden u8g2_update_dimension_r0
+00004802 g     F .text	0000000e .hidden _Z12ioDeviceSyncP18BasicIoAbstraction.constprop.154
+00004f28 g     F .text	0000000c .hidden _Z17interruptHandler1v
+00003c2a g     F .text	00000034 .hidden _ZN7Serial_9availableEv
+00800100 g       .data	00000000 __data_start
+0000187e g     F .text	00000004 .hidden _ZN21HardwareRotaryEncoderD0Ev
+000010d2 g     F .text	000000b6 .hidden _ZN7TwoWire15endTransmissionEh
+0000043a g       .text	00000000 __dtors_start
+000016b6 g     F .text	0000001a .hidden u8g2_draw_l90_r0
+00005026 g     F .text	00000028 .hidden _Z16isItemActionableP8MenuItem
+00800452 g     O .bss	00000083 .hidden oled
+00800329 g     O .bss	00000001 .hidden twi_slarw.lto_priv.206
+000069ce g       .text	00000000 __mulsf3_pse
+00006d20 g     F .text	0000000e memset
+00001cfe g     F .text	0000005c .hidden _ZN21MCP23017IoAbstraction12pinDirectionEhh
+000069c8 g     F .text	000000d2 __mulsf3x
+0000698c g       .text	00000000 __fp_szero
+00800118 g     O .data	00000002 __malloc_heap_end
+00004918 g     F .text	0000005a .hidden _ZN21MCP23017IoAbstraction15readFromDevice8Eh.constprop.56
+00800946 g     O .bss	00000001 .hidden _usbConfiguration
+000011c6 g     F .text	0000040e .hidden _ZN16U8g2MenuRenderer6renderEv
+00800955 g     O .bss	00000002 __brkval
+00003706 g     F .text	00000076 .hidden _ZN21MCP23017IoAbstraction13writeToDeviceEhj.constprop.61
+0000048c  w      .text	00000000 __vector_33
+0000048c  w      .text	00000000 __vector_32
+0000048c  w      .text	00000000 __vector_39
+00000400 g       *ABS*	00000000 __USER_SIGNATURE_REGION_LENGTH__
+00000003 g       *ABS*	00000000 __FUSE_REGION_LENGTH__
+0000043c g       .text	00000000 __dtors_end
+0000048c  w      .text	00000000 __vector_35
+0000048c  w      .text	00000000 __vector_34
+008003e8 g     O .bss	0000003e .hidden switches
+000002f1 g     O .text	0000001f .hidden digital_pin_to_bit_mask_PGM
+00006ac4 g     F .text	00000130 malloc
+00004ef0 g     F .text	0000000e .hidden _Z17interruptHandler5v
+00001624 g     F .text	00000004 .hidden _ZN18BasicIoAbstraction7runLoopEv
+00005568 g     F .text	000001b2 .hidden u8g2_SetFont.constprop.115
+00004670 g     F .text	00000052 .hidden u8g2_font_setup_decode.constprop.184
+00002172 g     F .text	0000004c .hidden u8g2_IsIntersection
+00006444 g     F .text	0000012c .hidden _ZN16BaseMenuRenderer4execEv
+00006998 g       .text	00000000 __gtsf2
+00004e8e g     F .text	0000000e .hidden _Z18interruptHandler12v
+00004e2c g     F .text	0000001c .hidden _ZN18BasicIoAbstraction9writePortEhh
+00004e56 g     F .text	0000000e .hidden _Z18interruptHandler18v
+00004f7a g     F .text	00000008 .hidden _ZN18BasicIoAbstraction12pinDirectionEhh
+00003d9c g     F .text	00000008 .hidden _ZN7Serial_17availableForWriteEv
+00006d3c g     F .text	0000001c strncmp
+00000656 g     F .text	00000006 .hidden _ZN5Print17availableForWriteEv
+00000438 g       .text	00000000 __ctors_start
+0080027c g       .data	00000000 __data_end
+00800943 g     O .bss	00000001 .hidden TxLEDPulse
+00006d2e g     F .text	0000000e strcpy
+0000443e g     F .text	0000005e .hidden digitalWrite
+00003578 g     F .text	00000070 .hidden _ZN16BaseMenuRenderer17prepareNewSubmenuEv.constprop.83
+0000175c g     F .text	000000b8 .hidden u8g2_ll_hvline_vertical_top_lsb
+00004eb8 g     F .text	0000000e .hidden _Z17interruptHandler9v
+000035e8 g     F .text	0000007a .hidden _ZN11MenuManager14setCurrentMenuEP8MenuItem.constprop.81
+00001eb4 g     F .text	00000002 .hidden _ZN21HardwareRotaryEncoderD1Ev.lto_priv.202
+00800959 g       .bss	00000000 __bss_end
+00800957 g     O .bss	00000002 __flp
+00004872 g     F .text	00000016 .hidden _ZN7Serial_5flushEv
+000038b0 g     F .text	0000004a .hidden micros
+000048c8 g     F .text	00000050 .hidden _ZN21MCP23017IoAbstraction19toggleBitInRegisterEhhb.constprop.57
+00004c98 g     F .text	0000010c .hidden _ZN7Serial_5writeEPKhj
+0000668a g       .text	0000000c .hidden __tablejump2__
+00001188 g     F .text	0000000a .hidden _ZN16U8g2MenuRendererD2Ev
+0000681e g     F .text	0000005e __fixunssfsi
+00800249 g     O .data	00000016 .hidden _ZTV18BasicIoAbstraction
+0000048c  w      .text	00000000 __vector_21
+000047f4 g     F .text	0000000e .hidden _Z19ioDeviceDigitalReadP18BasicIoAbstractionh.constprop.155
+00004e10 g     F .text	0000001c .hidden _ZN18BasicIoAbstraction8readPortEh
+000069a2 g     F .text	00000008 __mulsf3
+0000048c  w      .text	00000000 __vector_22
+00004846 g     F .text	0000002c .hidden _ZN7Serial_5writeEh
+0000093c g     F .text	0000022c .hidden _ZN4U8G25writeEh
+0000048c  w      .text	00000000 __vector_29
+0000048c  w      .text	00000000 __vector_28
+0000048c  w      .text	00000000 __vector_27
+00001602 g     F .text	0000000e .hidden _ZN21MCP23017IoAbstraction8readPortEh
+00006576 g     F .text	0000000e strcpy_P
+0000048c  w      .text	00000000 __vector_20
+00006d90 g       .text	00000000 _etext
+0000687c g     F .text	0000007a __floatunsisf
+00004f9e g     F .text	00000036 .hidden _ZN8MenuItem10setEditingEb
+00001fec g     F .text	00000172 .hidden u8x8_d_sh1106_128x64_noname
+000047ca g     F .text	0000002a .hidden u8g2_ClearBuffer.constprop.177
+00006924 g     F .text	00000022 __fp_round
+00006624 g       .text	00000028 .hidden __divmodhi4
+0000698a g     F .text	0000000e __fp_zero
+00004810 g     F .text	0000000e .hidden _Z15ioDevicePinModeP18BasicIoAbstractionhh.constprop.153
+0000053c g     F .text	00000010 .hidden _ZN7TwoWire9availableEv
+000000ca g       .text	00000000 __trampolines_end
+000002c4 g     O .text	0000000e .hidden port_to_input_PGM
+00006946 g     F .text	00000044 __fp_split3
+00006902 g     F .text	00000006 __fp_nan
+0000504e g     F .text	0000002e .hidden _ZN16BaseMenuRenderer14resetToDefaultEv
+00004514 g     F .text	00000074 .hidden delay
+00001610 g     F .text	00000014 .hidden _ZN21MCP23017IoAbstraction9readValueEh
+000005a6 g     F .text	0000005e .hidden _ZN7TwoWire5writeEh
+00000000  w      *UND*	00000000 _Z14serialEventRunv
+00006738 g       .text	00000000 __addsf3
+00000000  w      *ABS*	00000000 __heap_end
+00001d78 g     F .text	00000072 .hidden u8x8_cad_001
+000046c2 g     F .text	000000d8 .hidden u8g2_font_get_glyph_data.constprop.182
+000066f2 g       .text	00000044 .hidden __udivmodsi4
+0000048c  w      .text	00000000 __vector_24
+00003912 g     F .text	00000094 __vector_23
+0080032a g     O .bss	00000001 .hidden twi_masterBufferLength.lto_priv.208
+00800426 g     O .bss	00000002 .hidden _ZN12MenuRenderer11theInstanceE
+0000048c  w      .text	00000000 __vector_25
+0000048c  w      .text	00000000 __vector_26
+0080039b g     O .bss	0000004d .hidden taskManager
+00004e64 g     F .text	0000000e .hidden _Z18interruptHandler15v
+0000188e g     F .text	00000136 .hidden _ZN21HardwareRotaryEncoder14encoderChangedEv
+000065c0 g     F .text	00000044 __ultoa_ncheck
+00001882 g     F .text	00000004 .hidden _ZN13RotaryEncoderD0Ev
+00004e80 g     F .text	0000000e .hidden _Z18interruptHandler13v
+00800203 g     O .data	00000018 .hidden _ZTV16BaseMenuRenderer
+000051f4 g     F .text	00000218 .hidden _ZN11TaskManager7runLoopEb
+0000215e g     F .text	00000014 .hidden u8x8_RefreshDisplay
+00000000  w      .text	00000000 __vector_default
+00800233 g     O .data	00000016 .hidden _ZTV21MCP23017IoAbstraction
+00004af4 g     F .text	0000005e .hidden _ZN13ValueMenuItem15setCurrentValueEjb.constprop.29
+00006d58 g     F .text	0000001e strncpy
+00004f1a g     F .text	0000000e .hidden _Z17interruptHandler2v
+00004f72 g     F .text	00000008 .hidden _ZN18BasicIoAbstraction10writeValueEhh
+0000ffa0 g       *ABS*	00000000 __DATA_REGION_LENGTH__
+00004ee2 g     F .text	0000000e .hidden _Z17interruptHandler6v
+000019c4 g     F .text	00000004 .hidden _ZZN11SwitchInput10initialiseEP18BasicIoAbstractionbENUlvE_4_FUNEv.lto_priv.196
+000065c2 g       .text	00000000 __ultoa_common
+00000b80 g     F .text	000000be .hidden u8g2_send_buffer.lto_priv.203
+00000b68 g     F .text	00000018 .hidden u8g2_font_get_word.lto_priv.193
+00001f3e g     F .text	00000002 .hidden _ZN18BasicIoAbstractionD1Ev.lto_priv.191
+00006d76  w      .text	00000000 .hidden exit
+0000355a g     F .text	0000001e .hidden _ZN11MenuManager17getParentAndResetEv.constprop.84
+00001192 g     F .text	00000014 .hidden _ZN16U8g2MenuRendererD0Ev
+00800959 g       .comment	00000000 __heap_start
+00002616 g     F .text	000001e0 .hidden _Z21fnpopupPasswordRtCallP15RuntimeMenuItemh12RenderFnModePci
+00004c1a g     F .text	0000005c .hidden _Z8USB_RecvhPvi.constprop.7
+000037da g     F .text	0000007c .hidden _ZN21MCP23017IoAbstraction14readFromDeviceEh.constprop.59
+0080027c g       .bss	00000000 __bss_start
+008001ba g     O .data	0000000a .hidden _ZTV13RotaryEncoder
+00004f6a g     F .text	00000008 .hidden _ZN18BasicIoAbstraction9readValueEh
+0080011a g     O .data	00000002 __malloc_heap_start
+0000048c  w      .text	00000000 __vector_12
+0000048c  w      .text	00000000 __vector_13
+00003e8c g     F .text	000000e4 __vector_10
+00006810 g     F .text	0000000e __fixsfsi
+00800945 g     O .bss	00000001 .hidden RxLEDPulse
+00800330 g     O .bss	00000001 .hidden _ZN7TwoWire13rxBufferIndexE
+00001a98 g     F .text	0000015c .hidden _ZN21MCP23017IoAbstraction15attachInterruptEhPFvvEh
+0000048c  w      .text	00000000 __vector_19
+00000aff  w      *ABS*	00000000 __stack
+0000048c  w      .text	00000000 __vector_18
+00003f70 g     F .text	0000047c __vector_11
+00003a42 g     F .text	0000004e __vector_3
+00006736 g     F .text	0000000e __subsf3
+000039f4 g     F .text	0000004e __vector_4
+00005508 g     F .text	00000014 .hidden u8g2_SetDrawColor.constprop.122
+000038ac g     F .text	00000004 .hidden __cxa_pure_virtual
+00006998 g     F .text	0000000a __gesf2
+0080032b g     O .bss	00000001 .hidden twi_masterBufferIndex.lto_priv.207
+00005828 g     F .text	000000ec .hidden _ZN16U8g2MenuRenderer13renderWidgetsEb.constprop.111
+000065a2 g     F .text	0000001e __ltoa_ncheck
+00004f82 g     F .text	0000001c .hidden _ZN8MenuItem22setSendRemoteNeededAllEv
+000025ea g     F .text	0000002c .hidden _Z10appendCharPcci
+000054de g     F .text	0000002a .hidden _ZN5Print5printEPKc.constprop.123
+00001bf4 g     F .text	00000090 .hidden _ZN21MCP23017IoAbstraction7runLoopEv
+000004f6 g     F .text	0000001e .hidden _ZN7TwoWire4peekEv
+00800328 g     O .bss	00000001 .hidden twi_inRepStart.lto_priv.211
+0000048c  w      .text	00000000 __vector_9
+00810000 g       .comment	00000000 __eeprom_end
+00800944 g     O .bss	00000001 .hidden _usbSuspendState
+008001b0 g     O .data	0000000a .hidden _ZTV21HardwareRotaryEncoder
+000029a8 g     F .text	0000002c .hidden _ZN25EditableMultiPartMenuItemIPvE13stopMultiEditEv
+00001814 g     F .text	0000000a .hidden u8g2_font_calc_vref_bottom
+000066ca g       .text	00000028 .hidden __udivmodhi4
+00005a10 g     F .text	00000146 .hidden _ZN10U8g2Dialog10drawButtonEP4U8G2P18ColorGfxMenuConfigIPKhEPKchb.constprop.107
+00010000 g       *ABS*	00000000 __EEPROM_REGION_LENGTH__
+00800389 g     O .bss	00000001 .hidden _usbCurrentStatus
+00006604 g     F .text	00000020 strrev
+000016a2 g     F .text	00000014 .hidden u8x8_ascii_next
+00003a90 g     F .text	0000004e __vector_2
+00003ade g     F .text	0000004e __vector_1
+000039a6 g     F .text	0000004e __vector_7
+00005914 g     F .text	000000fc .hidden u8g2_string_width.constprop.109
+0000048c  w      .text	00000000 __vector_6
+0000048c  w      .text	00000000 __vector_5
+0000048c  w      .text	00000000 __vector_8
+0000048c  w      .text	00000000 __vector_15
+0000048c  w      .text	00000000 __vector_14
+000066b4 g       .text	00000016 .hidden __muluhisi3
+00006624 g       .text	00000000 .hidden _div
+00004654 g     F .text	0000001c .hidden u8g2_font_decode_get_signed_bits.constprop.185
+0000548a g     F .text	00000054 .hidden _ZN8MenuItem16copyNameToBufferEPcii.constprop.126
+00003662 g     F .text	00000092 .hidden _ZN7TwoWire11requestFromEhh.constprop.72
+00800431 g     O .bss	0000001f .hidden renderer
+0000048c  w      .text	00000000 __vector_16
+0000048c  w      .text	00000000 __vector_17
+008001f5 g     O .data	0000000e .hidden _ZTV12MenuRenderer
+000015d6 g     F .text	0000002c .hidden _ZN21MCP23017IoAbstraction9writePortEhh
+00006a7c g     F .text	00000048 __fp_cmp
+00004dcc g     F .text	00000044 .hidden _ZN16BaseMenuRenderer21tryTakeSelectIfNeededEi15RenderPressMode
+0000297e g     F .text	0000002a .hidden _Z21offsetOfCurrentActiveP8MenuItem
+00000000 g       .text	00000000 __vectors
+00001f40 g     F .text	00000010 .hidden u8x8_gpio_call
+000002d2 g     O .text	0000001f .hidden digital_pin_to_port_PGM
+00001dea g     F .text	000000ca .hidden _ZN9TimerTask13microsFromNowEv
+0000667a g       .text	00000010 .hidden __negsi2
+00004e72 g     F .text	0000000e .hidden _Z18interruptHandler14v
+0080032c g     O .bss	00000001 .hidden twi_error.lto_priv.213
+00003858 g     F .text	00000054 .hidden _ZN5Print5writeEPKhj
+00004eaa g     F .text	0000000e .hidden _Z18interruptHandler10v
+00005b56 g     F .text	00000088 .hidden _ZN10BaseDialog14copyButtonTextEPcii.constprop.105
+00002490 g     F .text	00000018 .hidden _ZZN11MenuManager17getParentAndResetEvENUlP8MenuItemE_4_FUNES1_.lto_priv.197
+000015d4 g     F .text	00000002 .hidden _ZN13RotaryEncoder14encoderChangedEv
+00000514 g     F .text	00000028 .hidden _ZN7TwoWire4readEv
+00004f0c g     F .text	0000000e .hidden _Z17interruptHandler3v
+00006f0c g       *ABS*	00000000 __data_load_end
+00000606 g     F .text	00000050 .hidden _ZN4U8G25writeEPKhj
+00005166 g     F .text	0000008e .hidden _ZN16BaseMenuRenderer10initialiseEv
+00001f3a g     F .text	00000002 .hidden _ZN13RotaryEncoderD2Ev.lto_priv.204
+0080038f g     O .bss	0000000c .hidden menuMgr
+00001f3a g     F .text	00000002 .hidden _ZN13RotaryEncoderD1Ev.lto_priv.201
+00004888 g     F .text	00000040 .hidden _ZN21MCP23017IoAbstraction10initDeviceEv.constprop.58
+00004ed4 g     F .text	0000000e .hidden _Z17interruptHandler7v
+00000448 g       .text	00000016 .hidden __do_copy_data
+00001efe g     F .text	0000003c .hidden _ZN12KeyboardItem7triggerEb
+000011a6 g     F .text	00000020 .hidden _ZN8MenuItem9setActiveEb
+00006908 g     F .text	0000000e __fp_pscA
+00006916 g     F .text	0000000e __fp_pscB
+00800428 g     O .bss	00000009 .hidden menu8013713831
+00002e9c g     F .text	000006be .hidden _ZN16U8g2MenuRenderer14renderMenuItemEiiP8MenuItem.constprop.93
+00004e48 g     F .text	0000000e .hidden _Z21interruptHandlerOtherv
+000068f6 g     F .text	0000000c __fp_inf
+0080032d g     O .bss	00000001 .hidden twi_sendStop.lto_priv.210
+0000046e g       .text	00000016 .hidden __do_global_ctors
+00003dec g     F .text	0000003c .hidden _ZN7Serial_4readEv
+00800450 g     O .bss	00000002 .hidden io23017
+00006d76 g       .text	00000016 .hidden __do_global_dtors
+0000048c g       .text	00000000 __bad_interrupt
+000043ec g     F .text	00000052 .hidden digitalRead
+00004c76 g     F .text	00000022 .hidden _Z13USB_SendSpaceh.constprop.5
+0000048c  w      .text	00000000 __vector_40
+00006bf4 g     F .text	00000112 free
+00001f3c g     F .text	00000002 .hidden _ZN21MCP23017IoAbstractionD1Ev.lto_priv.192
+00006d10 g       .text	00000000 toupper
+000015d4 g     F .text	00000002 .hidden _ZN5Print5flushEv
+00800307 g     O .bss	00000001 .hidden _ZN7TwoWire12transmittingE
+00002294 g     F .text	000001fc .hidden _Z22secPopupActionRenderFnP15RuntimeMenuItemh12RenderFnModePci
+00800308 g     O .bss	00000020 .hidden twi_masterBuffer.lto_priv.209
+00006696 g       .text	0000001e .hidden __umulhisi3
+0000551c g     F .text	0000004c .hidden u8g2_DrawBox.constprop.120
+000045e2 g     F .text	00000072 .hidden u8g2_DrawHVLine.constprop.187
+00006584 g     F .text	0000001e strncpy_P
+0080027c g       .data	00000000 _edata
+00003b2c g     F .text	000000a0 .hidden attachInterrupt
+00003bcc g     F .text	0000005e .hidden _ZN12TextMenuItem12cleanUpArrayEv
+0000188a g     F .text	00000004 .hidden _ZN18BasicIoAbstractionD0Ev
+000024a8 g     F .text	00000104 .hidden _ZZN11MenuManager14initForEncoderEP12MenuRendererP8MenuItemhhhENUliE0_4_FUNEi.lto_priv.200
+000036f4 g     F .text	00000012 .hidden u8x8_byte_SendBytes.constprop.65
+00001f3c g     F .text	00000002 .hidden _ZN21MCP23017IoAbstractionD2Ev.lto_priv.195
+0000571a g     F .text	0000010e .hidden u8g2_DrawBitmap.constprop.112
+0000045e g       .text	00000010 .hidden __do_clear_bss
+00001822 g     F .text	0000005c .hidden _ZN11TaskManager14yieldForMicrosEj
+00004972 g     F .text	00000182 .hidden _ZN11SwitchInput7runLoopEv.constprop.53
+0080032f g     O .bss	00000001 .hidden _ZN7TwoWire14rxBufferLengthE
+000004f4 g     F .text	00000002 .hidden _ZN7TwoWire5flushEv
+0000540c g     F .text	0000007e .hidden _ZN11SwitchInput10initialiseEP18BasicIoAbstractionb.constprop.148
+00001628 g     F .text	00000004 .hidden u8x8_dummy_cb
+00006d90 g       *ABS*	00000000 __data_load_start
+0000065c g     F .text	00000198 .hidden u8x8_byte_arduino_hw_spi
+00800306 g     O .bss	00000001 .hidden _ZN7TwoWire9txAddressE
+00004ff8 g     F .text	0000002e .hidden _ZN8MenuItem15triggerCallbackEv
+00800305 g     O .bss	00000001 .hidden _ZN7TwoWire13txBufferIndexE
+00006766 g     F .text	000000cc __addsf3x
+000027f6 g     F .text	00000188 .hidden _Z11fastltoa_mvPcllci
+00800959 g       .comment	00000000 _end
+0000479a g     F .text	00000030 .hidden u8g2_SetBufferCurrTileRow.constprop.178
+0000048c  w      .text	00000000 __vector_41
+0000048c  w      .text	00000000 __vector_42
+00001886 g     F .text	00000004 .hidden _ZN21MCP23017IoAbstractionD0Ev
+00800304 g     O .bss	00000001 .hidden _ZN7TwoWire14txBufferLengthE
+0080010e g     O .data	00000008 .hidden _ZL12_usbLineInfo.lto_priv.198
+00004da4 g     F .text	00000028 .hidden _Z12PluggableUSBv
+00004efe g     F .text	0000000e .hidden _Z17interruptHandler4v
+00000400 g       *ABS*	00000000 __LOCK_REGION_LENGTH__
+0000181e g     F .text	00000004 .hidden u8g2_font_calc_vref_font
+000000ca g       .text	00000000 __trampolines_start
+000038fa g     F .text	00000018 .hidden millis
+00001f3e g     F .text	00000002 .hidden _ZN18BasicIoAbstractionD2Ev.lto_priv.194
+00006570 g     F .text	00000006 .hidden _ZThn6_N16BaseMenuRenderer4execEv
+000008da g     F .text	00000062 .hidden _ZN16U8g2MenuRenderer9getDialogEv
+00020000 g       *ABS*	00000000 __TEXT_REGION_LENGTH__
+00004e9c g     F .text	0000000e .hidden _Z18interruptHandler11v
+000002a8 g     O .text	0000000e .hidden port_to_mode_PGM
+
+
